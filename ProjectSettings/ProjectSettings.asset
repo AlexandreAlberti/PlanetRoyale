@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: QuickSand
+  companyName: TurboStudio
   productName: Planet Royale
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.quicksand.planetroyale
+    Android: com.turbostudio.planetroyale
     Standalone: com.QuickSand.PlanetRoyale
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
