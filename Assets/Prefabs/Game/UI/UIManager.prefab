@@ -754,6 +754,7 @@ MonoBehaviour:
   _miniBossIndicator: {fileID: 2958146259539050400}
   _bossIndicator: {fileID: 8291056327129707091}
   _humanHeroPrefabManager: {fileID: 2243133983492705380}
+  _heroCamera: {fileID: 3029692105483562801}
 --- !u!114 &2243133983492705380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,6 +1062,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeroCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 3228631478749880033, guid: 053e805c39e4e64449744f6ff47b2666,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6602751511921461310, guid: 053e805c39e4e64449744f6ff47b2666,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1125,6 +1131,12 @@ GameObject:
 --- !u!1 &1833603100640998593 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2285440048652485905, guid: 053e805c39e4e64449744f6ff47b2666,
+    type: 3}
+  m_PrefabInstance: {fileID: 488015846638154192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3029692105483562801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3228631478749880033, guid: 053e805c39e4e64449744f6ff47b2666,
     type: 3}
   m_PrefabInstance: {fileID: 488015846638154192}
   m_PrefabAsset: {fileID: 0}

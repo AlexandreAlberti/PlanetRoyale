@@ -46,6 +46,7 @@ namespace Game.UI
         [SerializeField] private BossIndicator _miniBossIndicator;
         [SerializeField] private BossIndicator _bossIndicator;
         [SerializeField] private HeroPrefabManager _humanHeroPrefabManager;
+        [SerializeField] private GameObject _heroCamera;
 
         private const float RegularAnimationSpeed = 1.0f;
         private const float PausedAnimationSpeed = 100000.0f;
@@ -81,7 +82,8 @@ namespace Game.UI
             _rankNumberPanel.Initialize();
             _miniBossIndicator.Initialize(sphereCenter, sphereRadius);
             _bossIndicator.Initialize(sphereCenter, sphereRadius);
-            
+            _heroCamera.SetActive(false);
+
             WeaponType weaponType = EquipmentDataManager.Instance.GetEquippedWeaponType();
             GameObject playerPrefab = _humanHeroPrefabManager.GetHeroPrefabByWeaponType(weaponType);
             playerPrefab.SetActive(true);
@@ -180,6 +182,7 @@ namespace Game.UI
 
         public void ShowMatchResultsScreen(bool isHumanPlayerDead, bool isMatchTutorial = false)
         {
+            _heroCamera.SetActive(true);
             _rewardsPanel.OnAcceptedRewards += RewardsPanel_OnAcceptedRewards;
             _rewardsPanel.Initialize(isHumanPlayerDead, isMatchTutorial);
             _rewardsPanel.Show();

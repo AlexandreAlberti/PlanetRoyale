@@ -342,6 +342,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5867299277351755038}
     m_Modifications:
+    - target: {fileID: 178321834603534449, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 178321834603534449, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 323269012861062018, guid: e588972753bbe124ea37890efd2d0d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -391,6 +401,86 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 429978254154699394, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 429978254154699394, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 429978254154699394, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_EnableGPUInstancing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587571830190988474, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 2587571830190988474, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587571830190988474, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_EnableGPUInstancing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469255860725868529, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109390022610965657, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: ringBufferMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109390022610965657, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: InitialModule.gravitySource
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109390022610965657, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982032154973897242, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336420667011335390, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 5336420667011335390, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336420667011335390, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_MeshDistribution
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336420667011335390, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: m_EnableGPUInstancing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407731662847509220, guid: e588972753bbe124ea37890efd2d0d21,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7412774285083686769, guid: e588972753bbe124ea37890efd2d0d21,
         type: 3}
