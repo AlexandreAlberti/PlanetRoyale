@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6404027937403860627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 61358805559997125, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: _initialHealth
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326981916184422070, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: _deadVfx
+      value: 
+      objectReference: {fileID: 8239922313975639182, guid: 6f8b55176a0e6ea429d47eb8787c775d,
+        type: 3}
+    - target: {fileID: 1762815559489388157, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: _isMiniBoss
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525153284835912386, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyRanged_miniBoss_runicGolem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207566250556782024, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: _tagXp
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356034685825858221, guid: 434de2f814faa9244ab904d58d1209bc,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 434de2f814faa9244ab904d58d1209bc, type: 3}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1e01d80fdc2155d4692276500db33fc9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: a0cb80fb685ef5140b4e5948789b05fe, type: 3}
+  waterMesh:
+    shape: 0
+    scale: 100
+    vertexDistance: 1
+    UVTiling: 1
+    noise: 0
+    boundsPadding: 4
+    mesh: {instanceID: 0}

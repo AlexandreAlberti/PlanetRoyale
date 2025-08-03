@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4726787539806633988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 476488337034058195, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476488337034058195, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.552714e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332542552728523955, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_Name
+      value: CuteFantasy_enemy_snake_teal_model
+      objectReference: {fileID: 0}
+    - target: {fileID: 3321187297463166283, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea1dbaeaf98626d43aec599948d62a82, type: 2}
+    - target: {fileID: 3321187297463166283, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e6bd42eae338564795f762a4af12c76, type: 2}
+    - target: {fileID: 3321187297463166283, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 759de006274e67b4fb1a2035848a1fe8, type: 2}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778228399518508267, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526862580553716445, guid: 6d2a94e28d124244ca783dd60e884d87,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000005623187
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d2a94e28d124244ca783dd60e884d87, type: 3}

@@ -1,0 +1,551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6822302022367732196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9045195942420201541}
+  - component: {fileID: 1474876405234723429}
+  - component: {fileID: 4260354122376203606}
+  - component: {fileID: 1803976624371569460}
+  - component: {fileID: 1131648801242518750}
+  - component: {fileID: 6627785133921505583}
+  - component: {fileID: 7662626824413732101}
+  - component: {fileID: 4888126228556760971}
+  - component: {fileID: 5563474689805157401}
+  - component: {fileID: 3053258432029133435}
+  - component: {fileID: 6937357390403062073}
+  - component: {fileID: 4720553576659876371}
+  - component: {fileID: 5357923738191809292}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &9045195942420201541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1474876405234723429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0a1d72feb53064c88a967f29260562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planetPrefab: {fileID: 4017170816347975505, guid: e62cccb2e5a8f4f84879d6482619052b,
+    type: 3}
+  _planetHaloPrefab: {fileID: 1163450713482723515, guid: bd4efa26c5235534bbac74e946b79d6e,
+    type: 3}
+--- !u!114 &4260354122376203606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28b23f286ad449a82763022697e7ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _talentsData: {fileID: 11400000, guid: 2aa1d4a8346798d4fa14f31cf4eba3cc, type: 2}
+  _firstLeagueData: {fileID: 11400000, guid: 655510a9ddf191c479a69e76fd7513dc, type: 2}
+  _secondLeagueData: {fileID: 11400000, guid: a99859ee4ab22f04f96ca6108c51d560, type: 2}
+  _thirdLeagueData: {fileID: 11400000, guid: 09dfe87ad44e08146ad3828cf330b7db, type: 2}
+  _equipmentSlotData: {fileID: 11400000, guid: 960aba1b27fcf12438b37be59b8c5312, type: 2}
+--- !u!114 &1803976624371569460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0360be471ea2484caf4d175e865b195d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _talentsData: {fileID: 11400000, guid: 2aa1d4a8346798d4fa14f31cf4eba3cc, type: 2}
+--- !u!114 &1131648801242518750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df93af2f0184f49a34b1c5c1a8f7411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deadZonePercent: 0.1
+--- !u!114 &6627785133921505583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fce9b2d83f544318eb1ac09fb4eb587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemySpawnMarkVfxPrefab: {fileID: 3775342557578951300, guid: 1bc0ccab19e630d4eabcfbc8252b07bf,
+    type: 3}
+  _enemySpawnRayVfxPrefab: {fileID: 8088274954164098260, guid: fac7499b02697574ca6d78a37911deb2,
+    type: 3}
+  _enemyBossSpawnMarkVfxPrefab: {fileID: 1879676542154337501, guid: 417c57d78c813a541a2a62a83ddc5c9c,
+    type: 3}
+  _enemyBossSpawnRayVfxPrefab: {fileID: 1243523622707715312, guid: a1a7eda7186386e4cacc91325414382e,
+    type: 3}
+  _obstacleMask:
+    serializedVersion: 2
+    m_Bits: 528
+  _timeBeforeInstantSpawn: 0.1
+--- !u!114 &7662626824413732101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769f0873606e85541baeb15f4839dfba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _availableSkills:
+  - {fileID: 11400000, guid: dafb8ffc8eed504469e798a144b40f49, type: 2}
+  - {fileID: 11400000, guid: 6d2b2f30cbd857742bdd63f7ecccc2d0, type: 2}
+  - {fileID: 11400000, guid: c99a4a0aea719f840b8751f8fd022d2b, type: 2}
+  - {fileID: 11400000, guid: 8ac107ea54dab3b4683b92097f4df5e8, type: 2}
+  - {fileID: 11400000, guid: 58a7bc1292deb37409b51c7e74c772b7, type: 2}
+  - {fileID: 11400000, guid: 577429068fd6da14bafc93df6bc08ba2, type: 2}
+  - {fileID: 11400000, guid: 0340547575738a84199ca0ba295746bf, type: 2}
+  - {fileID: 11400000, guid: 6a5b627e7f045834bacfa28361892053, type: 2}
+--- !u!114 &4888126228556760971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c7cff78d424694c945b14ac75dd9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _xpPercentageToDropWhenDead: 0.5
+  _npc1Prefab: {fileID: 5285514546766604251, guid: c19a68f07565c4b44be63b140d15137d,
+    type: 3}
+  _npc2Prefab: {fileID: 5285514546766604251, guid: b6bde47e265dfa74eab3f8d7562321e0,
+    type: 3}
+  _npc3Prefab: {fileID: 3100053706340277081, guid: aba03bc43c476ce459f6fbea709d17ef,
+    type: 3}
+  _npcAmount: 3
+  _playerNpcConfigs:
+  - {fileID: 11400000, guid: f26ccf3c5f76df2439e0fd43c5033141, type: 2}
+  - {fileID: 11400000, guid: c9fb769413688f740bd5d3b665a576f2, type: 2}
+  - {fileID: 11400000, guid: 988117b5794df44409a027d6bc37ba9d, type: 2}
+  _humanHeroPrefabManager: {fileID: 5357923738191809292}
+--- !u!114 &5563474689805157401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ac5270a9be2f4c8af5dbc8af6c176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3053258432029133435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e865e409c3510ca43bb1b596f7bf1068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _totalGameTimeStamp: 180
+  _miniBossArrivalTime: 45
+  _bossArrivalTime: 105
+  _stage1DifferentEnemiesSelection: 3
+  _stage2DifferentEnemiesSelection: 3
+  _stage3DifferentEnemiesSelection: 3
+  _miniBossDifferentEnemiesSelection: 1
+  _bossDifferentEnemiesSelection: 1
+  _initialBatchSpawns: 20
+  _spawnInterval: 14
+  _stage1ConfigList:
+  - EnemyPrefab: {fileID: 460449779554509662, guid: c8b7ddc9f2b95d141bff651e5c63b167,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4280174177138287225, guid: 9251b8f2cf939b54d8969e71b244348e,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 460449779554509662, guid: dbd9a6ff32aec974bbb5e37f8d9b7438,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4280174177138287225, guid: c3fde3fefea7e5a4f8f463475dfb245e,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 460449779554509662, guid: 5e2fd1da5fbbefd4096465304879c950,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4280174177138287225, guid: 1953d74a6bdb85b4d91192426b8a8227,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 460449779554509662, guid: acea03964f4a5474dbbf7ae68a46487b,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4280174177138287225, guid: 54489b0e45e6a444cb8c6be792009126,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 6066943174417658328, guid: fe0a18427fff9bf45a4389ceb089023f,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4042401193763414588, guid: 0a0ed2c499bd3034bbaf98032a5e788e,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 460449779554509662, guid: ce7bc87c9ad2b764b9c685611b9bf3b2,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4280174177138287225, guid: 0c206d5575ecf694e822cd59eb2e876c,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 641270541271608511, guid: 677749bef43d2e04cb546888ecf655e5,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 6352935108719278755, guid: 408a61afcd39b0944a464c124dba3c13,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 6066943174417658328, guid: ec65540ad5fb9e348a0d32698c0e3696,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4042401193763414588, guid: f2ff9a9a9ebdbcc419413f4342cc61d3,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  _stage1StartTime: 0
+  _stage1EndTime: 45
+  _stage1MaxEnemiesInPlanet: 20
+  _stage1MaxSpawnsPerBatch: 7
+  _stage2ConfigList:
+  - EnemyPrefab: {fileID: 976280403905963182, guid: 021fa746c3a3e864c903a170e3393200,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 5058583430637224353, guid: 715bdd722c6a1db46a399603f8e982a9,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 976280403905963182, guid: 3bd53ecc293a0f043a36accc3624add6,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 5058583430637224353, guid: bf939900f038e97479bc446bed785269,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 976280403905963182, guid: 66e6222d0c92d374ab9889e8e6bce16f,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 5058583430637224353, guid: 89ddaf028b5b34b4b87ba8b9e2269426,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 976280403905963182, guid: e819506bc0a3be346b5d69739218b51e,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 5058583430637224353, guid: e01acaa47bba23f489d1850254c7f670,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 6066943174417658328, guid: 660b3934c38c8ff46b2e92eee272c31e,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4042401193763414588, guid: 92895b7a8c4fbd3409e6b976f0827485,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 976280403905963182, guid: 20e6a301346eeda439ea51c7c8d646af,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 5058583430637224353, guid: 089d4565532729149814c59d5037da73,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 641270541271608511, guid: c89e026f3dd31904087f75968b288304,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 6352935108719278755, guid: e2dec8d0b8485764f811d34638fa76de,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 6066943174417658328, guid: 8f854e5cdf3c70e4ba4cd83dee2041af,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4042401193763414588, guid: 822b1d013bab4f14b9f075cb1e379626,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  _stage2StartTime: 45
+  _stage2EndTime: 105
+  _stage2MaxEnemiesInPlanet: 18
+  _stage2MaxSpawnsPerBatch: 7
+  _stage3ConfigList:
+  - EnemyPrefab: {fileID: 3952814962518087188, guid: 0fc7ef56c1760134fad74c93a80b360b,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 8807539575490752966, guid: 2f81201538fc9344288916910a86933c,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 3952814962518087188, guid: d6cb0ba1f45914243a1d61ffa9ac284d,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 8807539575490752966, guid: 2e13b1c9ef81ce0448d93098075e395d,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 3952814962518087188, guid: 5b37c95f7b71b2e4482d94fb73b949b5,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 8807539575490752966, guid: dded6c3afb7bc1c4cb3829b67c6bf0b4,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 3952814962518087188, guid: 63a4bb059eca9c8458ee64ff7e56e36f,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 8807539575490752966, guid: 05aa35c37e147394da9bec36c565cbde,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 6066943174417658328, guid: 357b4278cc0b87847b79de30445b9c03,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4042401193763414588, guid: 6ad0f50b3f700e84e9a2e47a2e028d45,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 3952814962518087188, guid: e4b3a2ab496af9942bc5c33cc90d3760,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 8807539575490752966, guid: ea5ea50603a7a8b4596ccf933df7171f,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 641270541271608511, guid: be0e9cabb3956b3478c613d0c3d61f71,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 6352935108719278755, guid: ebfab40c21862c8489157f7888e7b7cd,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  - EnemyPrefab: {fileID: 6066943174417658328, guid: c1ff0735b3b34504c885f9ed8eebbdcc,
+      type: 3}
+    EnemyPrewarmCount: 10
+    EnemyRagdollPrefab: {fileID: 4042401193763414588, guid: 579c213c688b54b41bc15dc827f8299f,
+      type: 3}
+    EnemyRagdollPrewarmCount: 10
+  _stage3StartTime: 105
+  _stage3EndTime: 180
+  _stage3MaxEnemiesInPlanet: 13
+  _stage3MaxSpawnsPerBatch: 7
+  _miniBossesConfigList:
+  - EnemyPrefab: {fileID: 7321654228689637586, guid: b1e947c22994fd442ad6a484ac02cc92,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 4313340182213693355, guid: 6dd46cd65052f494c87bb050d10e59b4,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  - EnemyPrefab: {fileID: 4103445437110228102, guid: 5d8af75ee042b9d498f3de9800699f14,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 541835642855519875, guid: 895260a6a097a6c45838ba0e5c0022f4,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  - EnemyPrefab: {fileID: 3177353035904552486, guid: 09a1fa6887f775844b40c41336876520,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 6894251000684902605, guid: fcb842b422c97e44db773c11b6252ee1,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  - EnemyPrefab: {fileID: 1079203540645282651, guid: b332610cddebb9e43b1ce465753f6de8,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 6675696344740737892, guid: 6f8b55176a0e6ea429d47eb8787c775d,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  _bossesConfigList:
+  - EnemyPrefab: {fileID: 4096641064513955683, guid: 039422cb193387643808fbc606ccb72e,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 3608798269453444872, guid: b42f6d5748119ba48ada387f96eeb2fb,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  - EnemyPrefab: {fileID: 1812629299223398402, guid: 0a26a77c68d3cf14cba7f10017890d0b,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 1238917268752668710, guid: d7d8082d4217a754fa0bdaeea230e704,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  - EnemyPrefab: {fileID: 2099223100849551636, guid: ce53035c773310240b9487d5199bbd1c,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 2269253958641642886, guid: 4c09360fee8523c40b1d6ae6f0e09adc,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  - EnemyPrefab: {fileID: 6207566250556782024, guid: 434de2f814faa9244ab904d58d1209bc,
+      type: 3}
+    EnemyPrewarmCount: 1
+    EnemyRagdollPrefab: {fileID: 7171665166088034452, guid: 7ee3ea2f3e354cd4a8ffd2bc6bf6a079,
+      type: 3}
+    EnemyRagdollPrewarmCount: 1
+  _bossPowerInvulnerabilityDuration: 1
+  _bossPowerDuration: 20
+  _bossPowerXpGainMultiplier: 1
+  _bossPowerAttackMultiplier: 1.1
+  _bossPowerMaxHpMultiplier: 1.3
+  _bossPowerAttackRangeMultiplier: 1.2
+  _bossPowerMovementSpeedMultiplier: 1.3
+--- !u!114 &6937357390403062073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2d4b4c023a46748ebd06e10895117f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hpDropSpawnChance: 0.05
+  _hpDropHealingPercentage: 0.2
+  _hpDropConfig:
+    HpDropPrefab: {fileID: 5746550724230895062, guid: c9fded231bbc1564ea9adbab17c78328,
+      type: 3}
+    HpDropCollectedPrefab: {fileID: 45493829921192118, guid: cc95b56a1aa618f42af8d3ed187d06d0,
+      type: 3}
+    HpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    HpDropPrewarmCount: 5
+  _xpDrops:
+  - XpDropType: 0
+    XpDropPrefab: {fileID: 2168509323529103148, guid: 870df430a49bbf64e9687e58052577e4,
+      type: 3}
+    XpDropCollectedPrefab: {fileID: -3246457531765007213, guid: 70e45821fc586464d91ab77339b6b9f2,
+      type: 3}
+    XpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    XpDropPrewarmCount: 16
+  - XpDropType: 1
+    XpDropPrefab: {fileID: 4409237322584634642, guid: 0b3139bfc85e4244a9a02ff7290555b4,
+      type: 3}
+    XpDropCollectedPrefab: {fileID: 5790677189418063337, guid: ddc32d6f810c8f84194852f9dcc016ea,
+      type: 3}
+    XpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    XpDropPrewarmCount: 16
+  - XpDropType: 2
+    XpDropPrefab: {fileID: 7938074324217783876, guid: 1d4d6e86baf6d5d45bab478a751d6f37,
+      type: 3}
+    XpDropCollectedPrefab: {fileID: -891123429701949928, guid: dccd3a25f55e7a14084fec4a6e8a3d3d,
+      type: 3}
+    XpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    XpDropPrewarmCount: 8
+  - XpDropType: 3
+    XpDropPrefab: {fileID: 5658028880402342348, guid: 0d79329f11638984bad8d705eeac404d,
+      type: 3}
+    XpDropCollectedPrefab: {fileID: 8608686807608618913, guid: bbaaa723cfd4d3449afa129ab39368a5,
+      type: 3}
+    XpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    XpDropPrewarmCount: 8
+  - XpDropType: 4
+    XpDropPrefab: {fileID: 7591582341001856169, guid: 3c625cacf224a21419493c3839ca3651,
+      type: 3}
+    XpDropCollectedPrefab: {fileID: 1675830964149618337, guid: 93b26baf2a5e2b148ae472b2135b1735,
+      type: 3}
+    XpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    XpDropPrewarmCount: 4
+  - XpDropType: 5
+    XpDropPrefab: {fileID: 6281935813827315737, guid: ff462b1254464dd4097b775a81a146ad,
+      type: 3}
+    XpDropCollectedPrefab: {fileID: 5621751897418553688, guid: 94a4f8be5a6dbf146bd11411d06dd762,
+      type: 3}
+    XpDropCollectedVfx: {fileID: 4030598337245431367, guid: fd779b4f61d64704eb4fa61bed01f167,
+      type: 3}
+    XpDropPrewarmCount: 4
+  _scatteredTagsDelayBetweenDrops: 0.1
+  _minAmountOfDroppedTags: 10
+--- !u!114 &4720553576659876371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380d535f28167014a910c5d584041bb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainLight: {fileID: 0}
+  _vignette: {fileID: 0}
+  _transitionsDuration: 3.5
+  _skyBoxColorStage1: {r: 0, g: 0.8784314, b: 1, a: 1}
+  _fogColorStage1: {r: 0, g: 0.9607844, b: 1, a: 1}
+  _lightColorStage1: {r: 1, g: 1, b: 1, a: 1}
+  _vignetteColorStage1: {r: 0, g: 0, b: 0, a: 0}
+  _musicPlaySpeedStage1: 1
+  _skyBoxColorStage2: {r: 1, g: 0.54759526, b: 0, a: 1}
+  _fogColorStage2: {r: 0.8, g: 0.49250042, b: 0.066666655, a: 1}
+  _lightColorStage2: {r: 1, g: 0.8817341, b: 0.6556604, a: 1}
+  _vignetteColorStage2: {r: 0, g: 0, b: 0, a: 0.2}
+  _musicPlaySpeedStage2: 1.05
+  _skyBoxColorStage3: {r: 0.81761, g: 0.14655265, b: 0.1825369, a: 1}
+  _fogColorStage3: {r: 0.99371064, g: 0, b: 0.4292443, a: 1}
+  _lightColorStage3: {r: 1, g: 0.5330188, b: 0.5330188, a: 1}
+  _vignetteColorStage3: {r: 0.49685526, g: 0.095308624, b: 0.095308624, a: 0.4}
+  _vignettePulseColorStage3: {r: 0.49803922, g: 0.09411765, b: 0.09411765, a: 0.7490196}
+  _pulseDuration: 0.5
+  _musicPlaySpeedStage3: 1.15
+--- !u!114 &5357923738191809292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822302022367732196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2039e3a309ea42cbb5419c8e6c5c3e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _heroBowPrefab: {fileID: 8751574322152644343, guid: 791a81d4b296a2142b9df9dad78caf37,
+    type: 3}
+  _heroGreatSwordPrefab: {fileID: 8322441384941465800, guid: 4bb37f179f531ac4881d3c3212771891,
+    type: 3}
+  _heroFireBallStaffPrefab: {fileID: 8751574322152644343, guid: 500205432f5357a469f5b3af7614984e,
+    type: 3}
+  _heroTridentPrefab: {fileID: 8322441384941465800, guid: c1953cc00002d5d489f43da053540e49,
+    type: 3}
+  _heroPoisonBombPrefab: {fileID: 8751574322152644343, guid: bfe6772cf93462f439546e44391437eb,
+    type: 3}

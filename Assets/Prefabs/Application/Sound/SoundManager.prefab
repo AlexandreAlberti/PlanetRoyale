@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4049133299222732640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2761851685290275338}
+  - component: {fileID: 2576677369487553069}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2761851685290275338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4049133299222732640}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2576677369487553069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4049133299222732640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72daf08ac749407bbbf2b487d4cd1608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundsVolume: 1
+  _uiButtonPositiveSounds:
+  - {fileID: 8300000, guid: bce012f73b745744db3f6ff3e32b1e08, type: 3}
+  _uiButtonNegativeSounds:
+  - {fileID: 8300000, guid: f917b482caf9c2c4b8c55af2b68b548a, type: 3}
+  _uiPopupSounds:
+  - {fileID: 8300000, guid: 1545e62234300c94782fdf48f26bcfd9, type: 3}
+  _uiButtonStartGameSounds:
+  - {fileID: 8300000, guid: fbae7e3ec860c8c41883e11f7598e187, type: 3}
+  _uiRouletteSounds:
+  - {fileID: 8300000, guid: 4582e0bcc39ffa0449d27daf5d7b54b4, type: 3}
+  _uiItemCollectedSounds:
+  - {fileID: 8300000, guid: 4f89680c4f408b141ba9aca5f905b71b, type: 3}
+  _uiRewardSounds:
+  - {fileID: 8300000, guid: 77cb8a677d01e6547ad786d9dfca3a78, type: 3}
+  _gamePlayerDeathSounds:
+  - {fileID: 8300000, guid: 10bdeb28b7f29b943b4f7ba1b6071f27, type: 3}
+  _gamePlayerLevelUpSounds:
+  - {fileID: 8300000, guid: 821819b7c4cfb5542801fb23d2d05c71, type: 3}
+  _gamePlayerShootSounds:
+  - {fileID: 8300000, guid: 73e046be84f5a224cbd14578fd54b983, type: 3}
+  _gamePlayerPickXpSounds:
+  - {fileID: 8300000, guid: c3d575c16fd49ae40957472a2b24db96, type: 3}
+  _gamePlayerHitSounds:
+  - {fileID: 8300000, guid: c3d575c16fd49ae40957472a2b24db96, type: 3}
+  _gameEnemyHitSounds:
+  - {fileID: 8300000, guid: c3d575c16fd49ae40957472a2b24db96, type: 3}
+  _gameEnemyDeathSounds:
+  - {fileID: 8300000, guid: 5d78ac36bda45454ab4aac870506af03, type: 3}

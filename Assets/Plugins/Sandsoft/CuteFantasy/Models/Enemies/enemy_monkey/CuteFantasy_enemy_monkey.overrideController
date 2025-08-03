@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CuteFantasy_enemy_monkey
+  m_Controller: {fileID: 9100000, guid: 1f3f24777139bea48864a68bb74a552f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8a97ff06ecd30684bbf9cde4ab9045c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: db990a8744dae3746ab4298ce290025b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bc5584d8e53682c41bab59c59cadb976, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5efdabdccd5527e49a5f62a1b49bf164, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3550859369f69014d9a332a33f6cb053, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cb38724af8ce32f48bdf80e236df8a77, type: 2}

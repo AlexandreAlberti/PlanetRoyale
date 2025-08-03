@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4843923453509586036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 319323155455189283, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: _dieVfxPrefab
+      value: 
+      objectReference: {fileID: 548479009734871434, guid: e3bcf16598af89f43ad30a87e2897f30,
+        type: 3}
+    - target: {fileID: 319323155455189283, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: _appearVfxPrefab
+      value: 
+      objectReference: {fileID: 2523282398786644802, guid: 448d214952d1722449a29091c32f2028,
+        type: 3}
+    - target: {fileID: 557511339405561982, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: eb34e4ea3f7852c4d9a5ba2d0ec80129,
+        type: 2}
+    - target: {fileID: 619449975213078386, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyMeleeRagdoll_slime_tier1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586290249650611997, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f4d5d8c58e865a4187a8bb1be67ab8d, type: 3}

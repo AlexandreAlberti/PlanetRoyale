@@ -1,0 +1,386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d1aa11119bb07343b9b31bf381bf208, type: 3}
+  m_Name: Green Hills Prefabs painting Preset
+  m_EditorClassIdentifier: 
+  prefabs:
+  - prefabToPaint: {fileID: 1806862361860052613, guid: e725949acd73d8f4b8106476c6b60ffa,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 6302719351906699287, guid: 98d42f0e5b93bc84e899162ccb258771,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 7832126864016215790, guid: f7ffbb4004974ae408efe1cca2ec5e9b,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 926290590170561748, guid: ba33cb6e41c84834a93ede55f7fa6363,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 926290590170561748, guid: e66d3a93193b06546b0ebba2ef0f771a,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 2201373612558041583, guid: b4a98c732ac1f904886517d494b79e99,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 7291083556597790298, guid: 38ffbd0fdb17d214e9f6b9eaa2dc3602,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 363584722266902145, guid: 4faae573702db00468bacc5f9dea631f,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 1054039651435222921, guid: 282fa14ab1fc52941ab8e6c09f9d8ff3,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 6939098392555883365, guid: d714e975ab8775446a77f3ed166be098,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  - prefabToPaint: {fileID: 2653905808559659542, guid: 567594c57887ea04dbd0e599e8b8745e,
+      type: 3}
+    selected: 0
+    customProps:
+      customName: 
+      useCustomPivotMode: 0
+      pivotMode: 0
+      useCustomOffset: 0
+      offsetMode: 0
+      offsetMinValue: {x: -0.2, y: -0.2, z: -0.2}
+      offsetMaxValue: {x: 0.2, y: 0.2, z: 0.2}
+      offsetFixedValue: {x: 0, y: 0, z: 0}
+      useCustomRotationMode: 0
+      rotationMode: 0
+      rotationMinValue: {x: 0, y: 0, z: 0}
+      rotationMaxValue: {x: 0, y: 360, z: 0}
+      fixedRotation: {x: 0, y: 0, z: 0}
+      useCustomScale: 0
+      scaleMode: 0
+      scaleMinValue: {x: 0.8, y: 0.8, z: 0.8}
+      scaleMaxValue: {x: 1.2, y: 1.2, z: 1.2}
+      scaleMaxUniformValue: {x: 1, y: 1, z: 1}
+      scaleMinUniformValue: {x: 1, y: 1, z: 1}
+      fixedScale: {x: 1, y: 1, z: 1}
+  parentName: 
+  allowedTextures: []
+  parentObject: {fileID: 0}
+  template: {fileID: 0}
+  clippingBoundsColor: {r: 0, g: 0, b: 0, a: 0}
+  pivotModeValue: 0
+  paintMode: 1
+  raycastMode: 1
+  parentMode: 0
+  rotationMode: 1
+  scaleMode: 2
+  offsetMode: 0
+  impulseMode: 0
+  physicsAffectMode: 0
+  physicsSimulationMode: 0
+  snapMode: 0
+  tagMask: -1
+  layerMask: -1
+  eraserMask: -1
+  eraserTagMask: -1
+  parentInstanceID: 0
+  physicsCustomLayer: 0
+  vertexSnapLayerMask: -1
+  vertexSnapTagMask: -1
+  brushSize: 0.1
+  brushStrength: 0.5
+  clippingStreght: 0.846
+  eraserSize: 0
+  fakePlaneYPosition: 0
+  gridSnapValue: 0
+  physicsImpulseForce: 0
+  physicsStepValue: 0
+  scaleMaxUniform: 1
+  scaleMinUniform: 0
+  vertexSnapDistance: 1
+  worldLinesDistance: 1
+  precisionModeRotationAngle: 0
+  addToClippingTest: 1
+  alignWithGround: 0
+  constrainedScaleFixed: 0
+  constrainedScaleMax: 0
+  constrainedScaleMin: 0
+  deletePhysicsOnly: 0
+  makeErasable: 1
+  makeStatic: 0
+  physicsUseCustomLayer: 0
+  precisionModeAddMesh: 0
+  precisionModeChangePrefabAfterPlacing: 0
+  usePhysics: 0
+  showClippingBounds: 0
+  showWorldLines: 0
+  uniformScaleParent: 0
+  useAngleLimits: 0
+  useFakePlaneIfNoHit: 0
+  useImpulse: 0
+  useTextureMask: 0
+  fixedOffset: {x: 0, y: 0.01, z: 0}
+  maxRotation: {x: 0, y: 360, z: 0}
+  minScale: {x: 0, y: 0, z: 0}
+  minScaleUniform: {x: 1.4, y: 1.4, z: 1.4}
+  angleLimits: {x: 0, y: 180}
+  gridOffset: {x: 0, y: 0}
+  fixedPhysicsImpulse: {x: 0, y: 0, z: 0}
+  fixedRotation: {x: 0, y: 0, z: 0}
+  fixedScale: {x: 1, y: 1, z: 1}
+  maxOffset: {x: 0, y: 0, z: 0}
+  maxPhysicsImpulse: {x: 0, y: 0, z: 0}
+  maxScale: {x: 0, y: 0, z: 0}
+  maxScaleUniform: {x: 1, y: 1, z: 1}
+  minOffset: {x: 0, y: 0, z: 0}
+  minPhysicsImpulse: {x: 0, y: 0, z: 0}
+  minRotation: {x: 0, y: 0, z: 0}
+  impulseFixed: {x: 0, y: 0, z: 0}
+  impulseMax: {x: 0, y: 0, z: 0}
+  impulseMin: {x: 0, y: 0, z: 0}
+  maxBrushRaduius: 0
+  maxEraserRadius: 0
+  maxImpulse: 0
+  scrollRotationSpeed: 0
+  usePenToogle: 0
+  penPressureMode: 0
+  customPivotMode: 0
+  customPropsOffsetMode: 0
+  customPropsOffsetFixed: {x: 0, y: 0, z: 0}
+  customPropsOffsetMax: {x: 0, y: 0, z: 0}
+  customPropsOffsetMin: {x: 0, y: 0, z: 0}
+  customPropsScaleMode: 0
+  customPropsScaleFixed: {x: 0, y: 0, z: 0}
+  customPropsScaleMax: {x: 0, y: 0, z: 0}
+  customPropsScaleMaxUniform: {x: 0, y: 0, z: 0}
+  customPropsScaleMin: {x: 0, y: 0, z: 0}
+  customPropsScaleMinUniform: {x: 0, y: 0, z: 0}
+  customPropsRotationMode: 0
+  customPropsRotationFixed: {x: 0, y: 0, z: 0}
+  customPropsRotationMax: {x: 0, y: 0, z: 0}
+  customPropsRotationMin: {x: 0, y: 0, z: 0}
+  foldoutMainSetings: 1
+  foldoutParenting: 1
+  foldoutBrushMultipleMode: 1
+  foldoutPlacement: 1
+  foldoutTransforms: 1
+  foldoutPhysics: 1
+  foldoutAdvancedSettings: 1
+  foldoutEraseMode: 1
+  foldoutTemplateSelection: 1
+  foldoutTemplateSection: 1
+  foldoutPrecisionSection: 1

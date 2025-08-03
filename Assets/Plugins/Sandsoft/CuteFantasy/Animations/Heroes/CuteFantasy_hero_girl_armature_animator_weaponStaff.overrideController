@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CuteFantasy_hero_girl_armature_animator_weaponStaff
+  m_Controller: {fileID: 9100000, guid: dbbe2d1fc8d4d044b98bb22cbd984f44, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a38fc745f25582a4ebf17217d9001f52, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 67f07ce1998c0ec4fbc7e5548d767a54, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 088aabcf4c8dc0d428ed719e132bfc1b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: afc266420e50a3d4195e92f9263ea058, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3ed980445f86321499e50ce898504931, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b58e17f5c0a010d4e84fa2fe892f0bb7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: beba83b99391ed541a666416c3dee68d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5b970c57ae731c845bd6ec384e8616e1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 07a041e024572e74ab35a9ecee2b1f58, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 102569d4ec844e34d8a19e95f35c4a14, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7443c4a3b00edc94e87a84804c41482d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 09e2f55202bdc6e479c39e229f3473f9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 85a1779127a7db64b882ce527de7bcdf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 85a1779127a7db64b882ce527de7bcdf, type: 2}

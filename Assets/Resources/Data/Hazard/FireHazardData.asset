@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f2affb021e6bf4890f7c73437f1f77, type: 3}
+  m_Name: FireHazardData
+  m_EditorClassIdentifier: 
+  <Type>k__BackingField: 1
+  <MeteoriteSpawnAmount>k__BackingField: 2
+  <MeteoriteSpawnCooldown>k__BackingField: 5
+  <MeteoriteExplosionBaseDamage>k__BackingField: 0
+  <MeteoriteAreaOfEffectBaseDamage>k__BackingField: 5
+  <MeteoriteAreaOfEffectDuration>k__BackingField: 30
+  <MeteoritePrefab>k__BackingField: {fileID: 2445668679013610255, guid: 3a5ad118cd0d0f64382846e9f0ee37f2,
+    type: 3}
+  <MeteoriteDestroyVfxPrefab>k__BackingField: {fileID: 2069261113835960450, guid: 2ff98a36534c5124d8c2b4e2533838bc,
+    type: 3}
+  <MeteoriteExplosionPrefab>k__BackingField: {fileID: 4841689032128286572, guid: 98416ab4a4d7ab643939052c636cd10b,
+    type: 3}
+  <MeteoriteAreaOfEffectPrefab>k__BackingField: {fileID: 1417993929998188940, guid: 78b1daa932cb6ef48842d076ba166053,
+    type: 3}

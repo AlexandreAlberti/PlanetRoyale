@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1873946378876914169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 420074488349775976, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1594765493300091667, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2f595ba6c1cf7948a6dbc8841fa726f, type: 2}
+    - target: {fileID: 1594765493300091667, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7714767c74c38784e90c7d3b0b7e53ff, type: 2}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987149641667139267, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733205513342237006, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733205513342237006, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733205513342237006, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875019546479537304, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489118358328247262, guid: f241e1050552f1d47917c9c3a5c79fa2,
+        type: 3}
+      propertyPath: m_Name
+      value: CuteFantasy_slime_slime_red_model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f241e1050552f1d47917c9c3a5c79fa2, type: 3}

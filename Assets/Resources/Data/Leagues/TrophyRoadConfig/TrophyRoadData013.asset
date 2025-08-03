@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49624f004080d904da39e856b8bef8c4, type: 3}
+  m_Name: TrophyRoadData013
+  m_EditorClassIdentifier: 
+  <LeagueSprite>k__BackingField: {fileID: 21300000, guid: f10f07ea60d01459eb3086bf51dce82e,
+    type: 3}
+  <MinTrophiesInclusive>k__BackingField: 440
+  <MaxTrophiesExclusive>k__BackingField: 490
+  <LeagueTitle>k__BackingField: 13
+  <TrophyRoadTitle>k__BackingField: 14
+  <GoldRewardByRank>k__BackingField: b80b0000dc050000ee02000090010000
+  <TrophiesRewardByRank>k__BackingField: 1e0000000f000000f6fffffff1ffffff
+  <MaterialsRewardByRank>k__BackingField: 06000000030000000200000000000000
+  <EquipmentRewardByRank>k__BackingField: 03000000010000000000000000000000
+  <RewardEquipmentPiecesPool>k__BackingField:
+  - {fileID: 11400000, guid: f6aadc10c22626f4c990cf47f4344875, type: 2}
+  - {fileID: 11400000, guid: 000f0d7f65616c8498a2b52f9f05e55c, type: 2}
+  - {fileID: 11400000, guid: 93e2b496893cab94b9b57c486ccb2a35, type: 2}
+  - {fileID: 11400000, guid: 6ce0baec5d1cf3f4ca0d433f0955cd98, type: 2}
+  - {fileID: 11400000, guid: c4da7b68880b43349910ff7866f49757, type: 2}
+  - {fileID: 11400000, guid: 97aa703e3f8c7e3458f0f89783080bb0, type: 2}
+  - {fileID: 11400000, guid: 85d9d27a52a220d41ba423e419a3b0fb, type: 2}
+  - {fileID: 11400000, guid: 2ca2faf96d570cc4c9873ee2130a2854, type: 2}
+  - {fileID: 11400000, guid: dfad2d370a904ee47b818dcc6d1d896b, type: 2}
+  - {fileID: 11400000, guid: 89342cc9471dbe1429b2f21d2927a6de, type: 2}
+  - {fileID: 11400000, guid: 6c41479015fac5942b769a47ee93eb3a, type: 2}
+  - {fileID: 11400000, guid: c102ef7dc2976e84bbefdcd31f910b7d, type: 2}
+  - {fileID: 11400000, guid: 22d71d89f5db5954ca7edc012a92ec64, type: 2}
+  - {fileID: 11400000, guid: f22382e6a87ab9f4886496883994fd2e, type: 2}
+  - {fileID: 11400000, guid: 5c8ce524f9515494da0f29d9f8413036, type: 2}
+  - {fileID: 11400000, guid: 419aa3a5fa77f4b47badfc1133a0d72e, type: 2}
+  - {fileID: 11400000, guid: 8cf24a4b2bbe0cc498faca90bc3d971c, type: 2}
+  - {fileID: 11400000, guid: 94697eb0c95fc7f4489e1c4a91393ac9, type: 2}
+  - {fileID: 11400000, guid: 4c20740d293a9c64697563fbca32e2d9, type: 2}
+  - {fileID: 11400000, guid: 4d074e677feaa3a438d35f322c473826, type: 2}
+  <RewardEquipmentPiecesRarityPercentages>k__BackingField:
+  - 60
+  - 20
+  - 15
+  - 5
+  - 0
+  <EnemyHealthMultiplier>k__BackingField: 3.75
+  <EnemyDamageMultiplier>k__BackingField: 2
+  <LeagueReachedReward>k__BackingField: {fileID: 11400000, guid: 9804a6025c6d34da18315ab24bfca143,
+    type: 2}
+  <ScoutRewardsData>k__BackingField: {fileID: 11400000, guid: 7983f70cdc5150d4a973c9fadd2fb9a9,
+    type: 2}
+  <GoldDungeonRewardsData>k__BackingField: {fileID: 11400000, guid: d31050b16f7244c60b76eb950062d681,
+    type: 2}

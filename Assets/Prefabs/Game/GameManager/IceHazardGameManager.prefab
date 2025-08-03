@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1087176871920637838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage1.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage1.g
+      value: 0.85882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage1.r
+      value: 0.7254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage2.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage2.g
+      value: 0.85882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage2.r
+      value: 0.7254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage3.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage3.g
+      value: 0.85882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _fogColorStage3.r
+      value: 0.7254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _lightColorStage2.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _lightColorStage2.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _lightColorStage3.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _lightColorStage3.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _skyBoxColorStage1.b
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _skyBoxColorStage1.g
+      value: 0.7647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720553576659876371, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _skyBoxColorStage1.r
+      value: 0.45490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_Name
+      value: IceHazardGameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1474876405234723429, guid: c731cb399f54c5b4fb2722cdcc59cbc0, type: 3}
+    - {fileID: 6627785133921505583, guid: c731cb399f54c5b4fb2722cdcc59cbc0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4837816304624113697}
+    - targetCorrespondingSourceObject: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4977279971480109998}
+    - targetCorrespondingSourceObject: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6696656133895321984}
+  m_SourcePrefab: {fileID: 100100000, guid: c731cb399f54c5b4fb2722cdcc59cbc0, type: 3}
+--- !u!1 &5889514319400531562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1087176871920637838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4837816304624113697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889514319400531562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f303d13cbfc3b641a9129016d94f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _iceHazardFogPrefab: {fileID: 6620144869815114806, guid: 699c1c5e40d5dda4599f20b93b5a1f12,
+    type: 3}
+--- !u!114 &4977279971480109998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889514319400531562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ee98af09623774dadab05b0ba1602d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planetPrefab: {fileID: 8119897108678724805, guid: ffebca99a36b5ac439e0f660af26b799,
+    type: 3}
+  _planetHaloPrefab: {fileID: 5802032850499059224, guid: 7b670c0d1323d2b4f994e72517e4ed45,
+    type: 3}
+  _hazardData: {fileID: 11400000, guid: 4b0d42ff963875e438270b9abd09cfe8, type: 2}
+--- !u!114 &6696656133895321984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889514319400531562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d297aca4ef7c849a086b548c2361f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemySpawnMarkVfxPrefab: {fileID: 3775342557578951300, guid: 1bc0ccab19e630d4eabcfbc8252b07bf,
+    type: 3}
+  _enemySpawnRayVfxPrefab: {fileID: 8088274954164098260, guid: fac7499b02697574ca6d78a37911deb2,
+    type: 3}
+  _enemyBossSpawnMarkVfxPrefab: {fileID: 1879676542154337501, guid: 417c57d78c813a541a2a62a83ddc5c9c,
+    type: 3}
+  _enemyBossSpawnRayVfxPrefab: {fileID: 1243523622707715312, guid: a1a7eda7186386e4cacc91325414382e,
+    type: 3}
+  _obstacleMask:
+    serializedVersion: 2
+    m_Bits: 528
+  _timeBeforeInstantSpawn: 0.1

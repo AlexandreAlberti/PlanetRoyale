@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CuteFantasy_enemy_bat_ragdoll
+  m_Controller: {fileID: 9100000, guid: 7879e3c46d6aeb54e8580f03e402e1be, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: daa5afbcc69c63944960d0dd6e82896f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e22b5bf75aee3bb478f8ecb9d0266078, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7fb688c4eb533084a89b869037b89095, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a2bf3e1e00f3234428dfbc3ae57f90eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ca2aed1c5892dcd4aac9ab141564f437, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e564b65809b2c354487954db2a3a6b0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bc5584d8e53682c41bab59c59cadb976, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 234d1dd5fc14e1b43921138235bcd1f5, type: 2}

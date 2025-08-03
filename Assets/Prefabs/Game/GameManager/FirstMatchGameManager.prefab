@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &475343520395218118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _spawnInterval
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1MaxEnemiesInPlanet
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2MaxEnemiesInPlanet
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3MaxEnemiesInPlanet
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _bossesConfigList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _bossDifferentEnemiesSelection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _miniBossesConfigList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1DifferentEnemiesSelection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2DifferentEnemiesSelection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3DifferentEnemiesSelection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _bossesConfigList.Array.data[0].EnemyPrefab
+      value: 
+      objectReference: {fileID: 1812629299223398402, guid: 0a26a77c68d3cf14cba7f10017890d0b,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.data[2].EnemyPrefab
+      value: 
+      objectReference: {fileID: 6066943174417658328, guid: fe0a18427fff9bf45a4389ceb089023f,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.data[3].EnemyPrefab
+      value: 
+      objectReference: {fileID: 460449779554509662, guid: 5e2fd1da5fbbefd4096465304879c950,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.data[4].EnemyPrefab
+      value: 
+      objectReference: {fileID: 460449779554509662, guid: acea03964f4a5474dbbf7ae68a46487b,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.data[2].EnemyPrefab
+      value: 
+      objectReference: {fileID: 6066943174417658328, guid: 660b3934c38c8ff46b2e92eee272c31e,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.data[3].EnemyPrefab
+      value: 
+      objectReference: {fileID: 976280403905963182, guid: 66e6222d0c92d374ab9889e8e6bce16f,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.data[4].EnemyPrefab
+      value: 
+      objectReference: {fileID: 976280403905963182, guid: e819506bc0a3be346b5d69739218b51e,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.data[2].EnemyPrefab
+      value: 
+      objectReference: {fileID: 6066943174417658328, guid: 357b4278cc0b87847b79de30445b9c03,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.data[3].EnemyPrefab
+      value: 
+      objectReference: {fileID: 3952814962518087188, guid: 5b37c95f7b71b2e4482d94fb73b949b5,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.data[4].EnemyPrefab
+      value: 
+      objectReference: {fileID: 3952814962518087188, guid: 63a4bb059eca9c8458ee64ff7e56e36f,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _miniBossesConfigList.Array.data[0].EnemyPrefab
+      value: 
+      objectReference: {fileID: 4103445437110228102, guid: 5d8af75ee042b9d498f3de9800699f14,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _miniBossesConfigList.Array.data[1].EnemyPrefab
+      value: 
+      objectReference: {fileID: 7321654228689637586, guid: b1e947c22994fd442ad6a484ac02cc92,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _bossesConfigList.Array.data[0].EnemyPrewarmCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _bossesConfigList.Array.data[0].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 1238917268752668710, guid: d7d8082d4217a754fa0bdaeea230e704,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.data[2].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 4042401193763414588, guid: 0a0ed2c499bd3034bbaf98032a5e788e,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.data[3].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 4280174177138287225, guid: 1953d74a6bdb85b4d91192426b8a8227,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage1ConfigList.Array.data[4].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 4280174177138287225, guid: 54489b0e45e6a444cb8c6be792009126,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.data[2].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 4042401193763414588, guid: 92895b7a8c4fbd3409e6b976f0827485,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.data[3].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 5058583430637224353, guid: 89ddaf028b5b34b4b87ba8b9e2269426,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage2ConfigList.Array.data[4].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 5058583430637224353, guid: e01acaa47bba23f489d1850254c7f670,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.data[2].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 4042401193763414588, guid: 6ad0f50b3f700e84e9a2e47a2e028d45,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.data[3].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 8807539575490752966, guid: dded6c3afb7bc1c4cb3829b67c6bf0b4,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _stage3ConfigList.Array.data[4].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 8807539575490752966, guid: 05aa35c37e147394da9bec36c565cbde,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _miniBossesConfigList.Array.data[0].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 541835642855519875, guid: 895260a6a097a6c45838ba0e5c0022f4,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _miniBossesConfigList.Array.data[1].EnemyRagdollPrefab
+      value: 
+      objectReference: {fileID: 4313340182213693355, guid: 6dd46cd65052f494c87bb050d10e59b4,
+        type: 3}
+    - target: {fileID: 3053258432029133435, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: _bossesConfigList.Array.data[0].EnemyRagdollPrewarmCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_Name
+      value: FirstMatchGameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045195942420201541, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1474876405234723429, guid: c731cb399f54c5b4fb2722cdcc59cbc0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7562181125501884123}
+  m_SourcePrefab: {fileID: 100100000, guid: c731cb399f54c5b4fb2722cdcc59cbc0, type: 3}
+--- !u!1 &6356107270272101666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6822302022367732196, guid: c731cb399f54c5b4fb2722cdcc59cbc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 475343520395218118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7562181125501884123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356107270272101666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe808be6fc44552b103bdde9b3cdea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planetPrefab: {fileID: 4017170816347975505, guid: e62cccb2e5a8f4f84879d6482619052b,
+    type: 3}
+  _planetHaloPrefab: {fileID: 1163450713482723515, guid: bd4efa26c5235534bbac74e946b79d6e,
+    type: 3}

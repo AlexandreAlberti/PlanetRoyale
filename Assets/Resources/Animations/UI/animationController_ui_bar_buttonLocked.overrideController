@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: animationController_ui_bar_buttonLocked
+  m_Controller: {fileID: 9100000, guid: 58c6105e60839bd4d8ddcebfe5d8a682, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8ac5fd887e6f6d148a6c474dac487455, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9703816d5a6568341b7ee997bbbf044f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cd35b1522e21b91479a47c6bdc3dbbd4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4dfea88cebd86b7469ce171652007e0e, type: 2}

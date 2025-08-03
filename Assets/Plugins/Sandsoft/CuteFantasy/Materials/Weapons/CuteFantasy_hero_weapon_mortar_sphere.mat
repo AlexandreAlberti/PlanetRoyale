@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CuteFantasy_hero_weapon_mortar_sphere
+  m_Shader: {fileID: -6465566751694194690, guid: de1af16bbcb4e4f4aa5da66f94054bc4,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient_light_strenght: 0.5
+    - _Fade_Distance: 75
+    - _OutlineWidth: 0
+    - _Outline_Color: 0
+    - _Outline_Thickness: 0.02
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 0
+    - _ambient_light_strenght: 1
+    m_Colors:
+    - _Color0: {r: 0.26138687, g: 0, b: 1, a: 0}
+    - _Color1: {r: 0.3372549, g: 1, b: 0, a: 0}
+    - _Color2: {r: 0.3372549, g: 1, b: 0, a: 0}
+    - _Color3: {r: 1, g: 0.70033294, b: 0.36320752, a: 1}
+    - _Color4: {r: 0.3372549, g: 1, b: 0, a: 0}
+    - _Color5: {r: 0.48235294, g: 0.48235294, b: 0.48235294, a: 1}
+    - _Color6: {r: 1, g: 0.59607846, b: 0.34509805, a: 1}
+    - _Color7: {r: 0.29411766, g: 0.19607843, b: 0.078431375, a: 1}
+    - _Color8: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
+    - _Color9: {r: 0, g: 0, b: 0, a: 0}
+    - _Fresnel_Color: {r: 1.4980392, g: 0, b: 0.884552, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_cutoff_treshold: {r: -0.1, g: 0.1, b: 0, a: 0}
+    - _cutoff_treshold: {r: -0.3, g: 0.3, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8905870467608940548
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CuteFantasy_enemy_crab_ragdoll
+  m_Controller: {fileID: 9100000, guid: 7879e3c46d6aeb54e8580f03e402e1be, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: daa5afbcc69c63944960d0dd6e82896f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2b6a8d2d88c93c34a9318984afce59bf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7fb688c4eb533084a89b869037b89095, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b59142b0cee944247b33b28d4cc91c10, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ca2aed1c5892dcd4aac9ab141564f437, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 36c5ed6688718394a9a292dace9b102f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bc5584d8e53682c41bab59c59cadb976, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 763b25f2e101c0a4d9c1cd00677827ad, type: 2}

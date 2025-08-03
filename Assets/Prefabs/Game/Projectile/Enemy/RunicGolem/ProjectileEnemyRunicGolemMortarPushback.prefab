@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4030598337245431367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6783229839525421127}
+  - component: {fileID: 480095635098778424}
+  - component: {fileID: 6454054440731461720}
+  - component: {fileID: 4233117182415587644}
+  m_Layer: 8
+  m_Name: ProjectileEnemyRunicGolemMortarPushback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6783229839525421127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030598337245431367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5401703306792136550}
+  - {fileID: 1149739891858489346}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &480095635098778424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030598337245431367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea71f17b5e419ea747d43f0309e3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoDestroyTime: 0.2
+--- !u!135 &6454054440731461720
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030598337245431367}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 4
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4233117182415587644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030598337245431367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969deeaf1d780ae43b80c4c60288e30f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _generatePushBack: 1
+  _pushBackForce: 1.5
+--- !u!1001 &6347809866642661484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6783229839525421127}
+    m_Modifications:
+    - target: {fileID: 2600818522945743025, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_Name
+      value: bossGolem_splash_groundSmash_rockSlab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dadae26481c931d4b9128aa55ebcfad1, type: 3}
+--- !u!4 &1149739891858489346 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6332977132555657326, guid: dadae26481c931d4b9128aa55ebcfad1,
+    type: 3}
+  m_PrefabInstance: {fileID: 6347809866642661484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7921346254390253944
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6783229839525421127}
+    m_Modifications:
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6985182870080324642, guid: 045db74e84a595740a1e33e2427238b0,
+        type: 3}
+      propertyPath: m_Name
+      value: bossGolem_poof_groundSmash_rockSlab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 045db74e84a595740a1e33e2427238b0, type: 3}
+--- !u!4 &5401703306792136550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2817268725641164318, guid: 045db74e84a595740a1e33e2427238b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7921346254390253944}
+  m_PrefabAsset: {fileID: 0}
